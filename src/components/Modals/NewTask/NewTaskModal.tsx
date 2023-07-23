@@ -15,10 +15,10 @@ import {
   ModalBody,
   ModalCloseButton,
 } from "@chakra-ui/react";
-import TagIcon from "../../Icons/tagIcon";
+// import TagIcon from "../../Icons/tagIcon";
 import UploadIcon from "../../Icons/uploadIcon";
 import CalendartwoIcon from "../../Icons/calendartwoIcon";
-import FlagIcone from "../../Icons/flagIcone";
+// import FlagIcone from "../../Icons/flagIcone";
 import AddUserIcon from "../../Icons/addUserIcon";
 import RectangleIcon from "../../Icons/rectangleIcon";
 import { EIcon } from "../../Icons/EIcon";

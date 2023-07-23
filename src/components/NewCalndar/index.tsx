@@ -4,15 +4,11 @@ import {
   HStack,
   Input,
   Popover,
-  PopoverArrow,
   PopoverBody,
-  PopoverCloseButton,
   PopoverContent,
-  PopoverHeader,
   PopoverTrigger,
   Portal,
   Text,
-  useEditable,
 } from "@chakra-ui/react";
 import FullCalendar from "@fullcalendar/react";
 import timeGridPlugin from "@fullcalendar/timegrid";
@@ -135,11 +131,10 @@ const NewCalendar = () => {
                     {props.dayNumberText}
                   </Text>
                   <Popover closeOnBlur={true}>
-                    {({ isOpen, onClose }) => (
+                    {({ onClose }) => (
                       <>
                         <PopoverTrigger>
                           <div
-                            // onClick={() => alert("aaaaa")}
                             className="addEventIcon"
                             style={{
                               background: "#208D8E",
