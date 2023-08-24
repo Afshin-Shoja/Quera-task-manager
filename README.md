@@ -1,7 +1,7 @@
 <div align="center">
   <h2 align="center">react-micro-projects</h2>
 
-The react-micro-project repository is a collection of small code snippets, <br />designed for use in larger projects with the React library.
+The Quera Task Manager <br />designed for use in larger projects with the React library.
 
 <a href="https://quera-task-manager.netlify.app//"><strong>➥ Live Demo(Only UI)</strong></a>
 
